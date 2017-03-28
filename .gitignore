@@ -1,3 +1,7 @@
 *.vcf
 *.gz
 *.tbi
+*.bam
+*.bai
+*.npy
+*.pyc
