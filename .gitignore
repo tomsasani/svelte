@@ -5,3 +5,5 @@
 *.bai
 *.npy
 *.pyc
+*.png
+*.csv

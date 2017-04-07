@@ -5,8 +5,6 @@ def calc_depth(bam, chrom, s, e, window=50):
     """
     Calculate the average depth across a region.
     """
-
-
     depths = []
 
     for pileupcolumn in bam.pileup(chrom, s, e):
