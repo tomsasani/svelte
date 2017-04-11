@@ -6,12 +6,7 @@ import math
 import pysam
 import seaborn as sns
 from mods import count_support, delta_depth, flank_is_ref
-from operator import itemgetter
 import argparse
-import time
-import random
-from tempfile import TemporaryFile
-import sys
 import numpy as np
 
 sns.set(style='ticks', palette='Set2')
